@@ -1,0 +1,12 @@
+.photo-control {
+    min-height: 300px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px dashed blue;
+    margin: 5px;
+  }
+  .card-header {
+    height: 42px;
+    padding: 4px 10px;
+    background-color: #007bff;
+}

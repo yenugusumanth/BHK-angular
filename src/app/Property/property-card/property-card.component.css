@@ -1,0 +1,49 @@
+.card:hover img{
+    transform: scale(1,1);
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    height: 210px;
+    opacity: .5;
+}
+.card img{
+    transform: scale(0.9,0.9);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+.card-body h1 {
+    font-family: sans-serif;
+    color: #0069d9;
+  }
+
+.font-highlight {
+    font-style: italic;
+    color: red;
+  }
+.card-img-wrapper{
+    overflow: hidden;
+    position: relative;
+}
+.card{
+    width:300px;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+    height: 350px;
+}
+.member-icons{
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right:auto;  
+    opacity: 0;
+}
+.card-img-wrapper:hover .member-icons{
+    bottom:0;
+    opacity: 1;
+}
+
+.animate{
+    transition: all 0.5s ease-in-out;
+}
